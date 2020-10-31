@@ -117,8 +117,16 @@
               "devServerTarget": "loginapp2:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "loginapp2"
+    }
+  },
+  "defaultProject": "loginapp2",
+  "cli": {
+    "analytics": "70b7681d-1938-4282-8805-84ae5f3ae5bf"
+  }
 }
